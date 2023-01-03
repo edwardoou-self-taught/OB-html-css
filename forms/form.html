@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios html</title>
+  </head>
+  <body>
+    <h1>Formularios</h1>
+    <!--* ACTION: Hace referencia la doc o url donde queremos enviar este formulario -->
+    <!--* METHOD: Hace referencia al método de envío de datos -->
+    <!-- GET: Envía los datos a través de la URL -->
+    <!-- POST: Envía los datos a través del body de la petición y se va a realizar alguna peticion desde el servidor. -->
+    <form action="resultados.html" method="GET">
+      <div>
+        <!-- FOR: Hace referencia al id del input -->
+        <label for="nombredeusuario "> Nombre de usuario </label>
+        <input type="text" name="nombredeusuario" id="nombredeusuario" required/>
+      </div>
+      <br>
+      <div>
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password" required />
+      </div>
+      <br>
+      <div>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad" min="0" max="200" step="5"/>
+      </div>
+      <br>
+      <div>
+        <label for="fecha">Fecha</label>
+        <input type="date" name="fecha" id="fecha" />
+      </div>
+      <br>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <br>
+      <div>
+        <label for="comentarios">Comentarios</label>
+        <textarea name="comentarios" id="comentarios"></textarea>
+      </div>
+      <br>
+      <button type="submit">Enviar</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
