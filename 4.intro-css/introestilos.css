@@ -1,0 +1,22 @@
+.colores {
+  color: orangered;
+}
+
+.color-hexadecimal {
+  color: #67c79c;
+}
+
+.color-rgb {
+  color: rgb(100, 0, 200);
+}
+
+/* Se le agrega un valor de 0 a 1 para indicar la opacidad. */
+.color-rgba {
+  color: rgba(100, 0, 200, 0.2);
+}
+
+.fondo {
+  /* background-color: #67c79c; */
+  background-image: url("https://www.w3schools.com/css/img_tree.png");
+  background-position: center center;
+}

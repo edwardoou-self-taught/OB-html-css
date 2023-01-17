@@ -1,0 +1,38 @@
+h1 {
+  color: orange;
+}
+
+/* Comentario */
+p {
+  color: blue;
+  font-size: 16pt;
+}
+
+/* solo parrafos (p) que tengan id (primera noticia) */
+p#primera-noticia {
+  color: green;
+}
+
+#segunda-noticia {
+  color: darkmagenta;
+}
+
+.encabezado {
+  font-size: 24pt;
+  text-transform: uppercase;
+}
+
+/* Se puede usar el selector universal * para seleccionar TODOS los elementos de la página. Por ejemplo, para cambiar el color de todos los elementos que tengan la clase warning: */
+*.warning {
+  color: red;
+}
+
+/* se puede unir selectores(o elementos) con coma */
+.autor,
+.fecha,
+.ubicacion,
+h1,
+#segunda-noticia {
+  text-decoration: underline;
+}
+
